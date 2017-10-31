@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="mybatis-3.2.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../jars/mybatis-3.2.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../jars/slf4j-api-1.7.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../jars/log4j-api-2.0-rc1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../jars/mysql-connector-java-5.1.7-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../jars/jstl-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../jars/log4j-core-2.0-rc1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../jars/slf4j-log4j12-1.7.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../jars/junit-4.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../jars/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../jars/commons-dbcp-1.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../jars/mybatis-spring-1.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../jars/aspectjweaver-1.6.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../jars/commons-pool-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../jars/commons-logging-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

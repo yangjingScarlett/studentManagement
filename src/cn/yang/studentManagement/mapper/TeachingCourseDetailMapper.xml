@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.yang.studentManagement.dao.TeachingCourseDetailMapper">
+    <resultMap id="ResultMap" type="cn.yang.studentManagement.domain.TeachingCourse">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+        <result column="course_id" property="courseId" jdbcType="INTEGER"/>
+        <result column="teacher_id" property="teacherId" jdbcType="INTEGER"/>
+        <result column="time" property="time" jdbcType="VARCHAR"/>
+        <association property="course" javaType="cn.yang.studentManagement.domain.Courses">
+            <id column="id" property="id" jdbcType="INTEGER"/>
+            <result column="name" property="name" jdbcType="VARCHAR"/>
+            <result column="credit" property="credit" jdbcType="INTEGER"/>
+        </association>
+        <association property="teacher" javaType="cn.yang.studentManagement.domain.Teachers">
+            <id column="id" property="id" jdbcType="INTEGER"/>
+            <result column="name" property="name" jdbcType="VARCHAR"/>
+            <result column="age" property="age" jdbcType="INTEGER"/>
+            <result column="gender" property="gender" jdbcType="VARCHAR"/>
+            <result column="email" property="email" jdbcType="VARCHAR"/>
+            <result column="mobile" property="mobile" jdbcType="VARCHAR"/>
+        </association>
+    </resultMap>
+
+    <select id="findAll" resultMap="ResultMap">
+        select * from teaching_course tc,courses c, teachers t where tc.course_id=c.id and tc.teacher_id=t.id
+    </select>
+</mapper>

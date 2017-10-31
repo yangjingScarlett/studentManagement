@@ -1,0 +1,30 @@
+INSERT INTO `mydb`.`courses` (`id`, `name`, `credit`) VALUES ('1', '信息系统分析与设计', '4');
+INSERT INTO `mydb`.`courses` (`id`, `name`, `credit`) VALUES ('2', '面向对象程序设计', '4');
+INSERT INTO `mydb`.`courses` (`id`, `name`, `credit`) VALUES ('3', '高等数学', '5');
+INSERT INTO `mydb`.`courses` (`id`, `name`, `credit`) VALUES ('4', 'web程序设计', '4');
+INSERT INTO `mydb`.`courses` (`id`, `name`, `credit`) VALUES ('5', '数据库', '5');
+INSERT INTO `mydb`.`courses` (`id`, `name`, `credit`) VALUES ('6', '体育', '1');
+INSERT INTO `mydb`.`courses` (`id`, `name`, `credit`) VALUES ('7', '影视赏析', '2');
+
+INSERT INTO `mydb`.`teachers` (`id`, `name`, `age`, `gender`, `email`, `mobile`) VALUES ('1', '张雪迎', '32', '女', '19891023@shufe.edu.cn', '15221894578');
+INSERT INTO `mydb`.`teachers` (`id`, `name`, `age`, `gender`, `email`, `mobile`) VALUES ('2', '张勇', '34', '男', 'zhangyong@shufe.edu.cn', '16734890234');
+INSERT INTO `mydb`.`teachers` (`id`, `name`, `age`, `gender`, `email`, `mobile`) VALUES ('3', '邓小凤', '46', '女', 'swruio@shufe.edu.cn', '15634789234');
+INSERT INTO `mydb`.`teachers` (`id`, `name`, `age`, `gender`, `email`, `mobile`) VALUES ('4', '黄海亮', '36', '男', 'hhl@shufe.edu.cn', '17834672389');
+INSERT INTO `mydb`.`teachers` (`id`, `name`, `age`, `gender`, `email`, `mobile`) VALUES ('5', '何志强', '45', '男', 'hzq1983@shufe.edu.cn', '15221894678');
+INSERT INTO `mydb`.`teachers` (`id`, `name`, `age`, `gender`, `email`, `mobile`) VALUES ('6', '刘兰娟', '40', '女', 'lljxiaozhang@shufe.edu.cn', '17834678324');
+INSERT INTO `mydb`.`teachers` (`id`, `name`, `age`, `gender`, `email`, `mobile`) VALUES ('7', '李正', '41', '男', 'lizheng@shufe.edu.cn', '127834902378');
+INSERT INTO `mydb`.`teachers` (`id`, `name`, `age`, `gender`, `email`, `mobile`) VALUES ('8', '梅兰', '26', '女', 'meilan@shufe.edu.cn', '15127365767');
+INSERT INTO `mydb`.`teachers` (`id`, `name`, `age`, `gender`, `email`, `mobile`) VALUES ('9', '齐志龙', '32', '男', 'qizhilong@shufe.edu.cn', '17834678901');
+INSERT INTO `mydb`.`teachers` (`id`, `name`, `age`, `gender`, `email`, `mobile`) VALUES ('10', '梁飞', '29', '男', 'liangfei@shufe.edu.cn', '15221986700');
+
+INSERT INTO `mydb`.`teaching_course` (`id`, `course_id`, `teacher_id`, `time`) VALUES ('1', '1', '1', 'Monday8:00-9:45, Wednesday13:20-15:00');
+INSERT INTO `mydb`.`teaching_course` (`id`, `course_id`, `teacher_id`, `time`) VALUES ('2', '2', '2', 'Monday10:00-11:45, Thursday8:00-9:45');
+INSERT INTO `mydb`.`teaching_course` (`id`, `course_id`, `teacher_id`, `time`) VALUES ('3', '3', '3', 'Monday13:20-15:00, Thursday13:20-15:00');
+INSERT INTO `mydb`.`teaching_course` (`id`, `course_id`, `teacher_id`, `time`) VALUES ('4', '4', '4', 'Monday15:25-17:00, Tuesday8:00-9:45');
+INSERT INTO `mydb`.`teaching_course` (`id`, `course_id`, `teacher_id`, `time`) VALUES ('5', '5', '5', 'Tuesday13:20-15:00, Friday10:00-11:45');
+INSERT INTO `mydb`.`teaching_course` (`id`, `course_id`, `teacher_id`, `time`) VALUES ('6', '6', '6', 'Wednesday10:00-11:45, Thursday15:25-17:00');
+INSERT INTO `mydb`.`teaching_course` (`id`, `course_id`, `teacher_id`, `time`) VALUES ('7', '7', '7', 'Wednesday15:25-17:00, Friday13:20-15:00');
+INSERT INTO `mydb`.`teaching_course` (`id`, `course_id`, `teacher_id`, `time`) VALUES ('8', '1', '8', 'Tuesday10:00-11:45, Wednesday18:00-19:40');
+INSERT INTO `mydb`.`teaching_course` (`id`, `course_id`, `teacher_id`, `time`) VALUES ('9', '2', '9', 'Friday15:20-17:00');
+INSERT INTO `mydb`.`teaching_course` (`id`, `course_id`, `teacher_id`, `time`) VALUES ('10', '3', '10', 'Thursday18:00-19:40');
+INSERT INTO `mydb`.`teaching_course` (`id`, `course_id`, `teacher_id`, `time`) VALUES ('11', '4', '7', 'Monday18:00-19:40');
